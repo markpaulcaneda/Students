@@ -1,0 +1,51 @@
+body {
+	line-height: 1.5em;
+	background-color: #009999;
+}
+
+nav {
+	margin-top: 3%;
+	padding-top: 50px;
+	padding-left: 10%;
+	padding-bottom: 20px;
+	font-size: 20px;
+	background-color: #eee;
+	border-radius: 10px;
+}
+
+.sentence {
+	font-size: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 20%;
+	margin-right: 20%; 
+	font-size: 50px;
+	border: 1px solid;
+	padding: 40px;
+	border-radius: 13px;
+}
+ 
+.active {
+	font-weight: bold;
+	color: black;
+}
+
+a {
+	border: 1px solid;
+	padding: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+
+
+.data {
+	font-size: 30px;
+	padding-left: 50px;
+}

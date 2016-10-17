@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess Number</title>
+	<link rel="stylesheet" type="text/css" href="../Yeah/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../Yeah/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body  ng-app="GuessTheNumber">
+
+<div class="container" ng-controller="GuessTheNumberCtrl">
+	<h2>Guess the Number!</h2>
+
+	<p class="well lead">Guess the computer generated random number between 1 and 1000.</p>
+
+	<label>Your Guess:</label>
+	<input type="number" ng-model="guess"/>
+
+	<button ng-click="verifyGuess()" class="btn btn-primary btn-sm"> Verify</button>
+
+	<button ng-click="initializeGame()" class="btn btn-warning btn-sm">Restart</button>
+
+	<p>
+		<p ng-show="deviation<0" class="alert alert-warning"> Your Guess is Higher.</p>
+		<p ng-show="deviation>0" class="alert alert-warning">Your guess is Lower.</p>
+		<p ng-show="deviation===0" class="alert alert-success">Yes! That's it.</p>
+	</p>
+	<p class="text-info">No of guesses : <span class="badge"> {{noOfTries}}</span></p>
+</div>
+
+</body>
+</html>

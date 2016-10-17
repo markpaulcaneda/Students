@@ -4,7 +4,7 @@
 ![](https://github.com/lvcc-wad/Students/blob/master/ACT/Macapagal-Rangel-Angelo/Sample-Website/ScreenShot/main.png)
 ![](https://github.com/lvcc-wad/Students/blob/master/ACT/Macapagal-Rangel-Angelo/Sample-Website/ScreenShot/main2.png)
 ![](https://github.com/lvcc-wad/Students/blob/master/ACT/Macapagal-Rangel-Angelo/Sample-Website/ScreenShot/main3.png)
-![](https://github.com/lvcc-wad/Students/blob/master/ACT/Macapagal-Rangel-Angelo/Sample-Website/ScreenShot/mai4.png)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Macapagal-Rangel-Angelo/Sample-Website/ScreenShot/main4.png)
 
 # About Us Link Page
 ![](https://github.com/lvcc-wad/Students/blob/master/ACT/Macapagal-Rangel-Angelo/Sample-Website/ScreenShot/aboutus.png)

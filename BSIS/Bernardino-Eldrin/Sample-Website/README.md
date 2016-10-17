@@ -1,8 +1,4 @@
-# Sample Website
-
-# The Life Work
-
-  - *Website URL* - https://ldrin01.github.io/WAD/The-Life-Work/
+# [The Life Work]( https://ldrin01.github.io/WAD/The-Life-Work/)
 
 ## Screenshots:
 

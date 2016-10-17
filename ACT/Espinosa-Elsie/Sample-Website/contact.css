@@ -1,0 +1,131 @@
+
+body {
+    background-image: url("pictures/bg8.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+} 
+
+.container a {
+    text-decoration: none;
+   color: white;
+}
+
+.container {
+    position: fixed;
+    top: 10px;
+    left: 950px;
+}
+
+.container1 {
+    left: 440px;
+    top: 60px;
+    position: fixed;
+}
+
+.container1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.a:hover{
+    background-color:#003333; 
+    padding: .5em;
+    border-radius: 7px;
+}
+
+.header {
+    background:#993366;
+    width:100%;
+    top:0%;
+    left: 0;
+    position:fixed;
+}
+
+.logo img {
+    float: left;
+    margin-left: 100px;
+
+}
+
+.search input {
+    left: 1027px;
+    top: 40px;
+    text-indent: 10px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.bar img {
+    position: fixed;
+    left: 1240px;
+    top: 43px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.text p {
+    font-weight: light;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+.text1 p {
+    font-size: 32px;
+    font-weight: normal;
+    position: absolute;
+    left: 375px;
+    top: 200px;
+}
+.left {
+    position: absolute;
+    top: 275px;
+    left: 75px;
+    width: 345px;
+    height: 500px;
+    border-radius: 5px;    
+}
+.text2 p {
+    font-size: 24px;
+    font-weight: normal;
+    position: absolute;
+    left: 918px;
+    top: 200px;
+}
+.text3 p {
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    left: 918px;
+    top: 450px;
+}
+.navright form {
+    position: absolute;
+    top: 500px;
+    left: 918px;
+}
+
+.navright textarea {
+    position: absolute;
+    text-transform: none;
+    border: 1px solid;
+    border-radius: 10px;
+    text-indent: 20px;
+    width: 450px;
+    height: 100px;
+}
+
+.navright input {
+    color: black;
+    background-color: #CCCCFF;
+    padding: .5em;
+    border-radius: 7px;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+    width: 100px;
+}

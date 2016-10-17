@@ -1,0 +1,47 @@
+body {
+    background-image: url("pictures/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+} 
+.box1{
+	width: 100%;
+	height: 100%;
+}
+.size{
+	margin-left: 50px;
+	margin-top: 150px;
+	width: 500px;
+	height: 500px;
+	border: white solid 15px;
+	box-shadow: 0 5px 10px;
+}
+.size2{
+	margin-left: 75px;
+	margin-top: 145px;
+	width: 900px;
+	height: 600px;
+	border: white solid 15px;
+	box-shadow: 0 5px 10px;
+
+}
+.nav a{
+    position: fixed;
+    top: 680px;
+    left: 1217px;
+    width: 115px;
+   	border-radius: 5px;
+    color: gray;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    padding: 1.3em;
+    font-weight: bold;
+    font-size: 18px;
+}
+.f:hover{
+    background-color:#990066; 
+    padding: 1.3em;
+    border-radius: 5px;
+}
+

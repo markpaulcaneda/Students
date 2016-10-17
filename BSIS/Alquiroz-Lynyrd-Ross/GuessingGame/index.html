@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="tryApp">
+<head>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+
+</head>
+
+<body>
+
+	<div class="container" ng-controller="tryController">
+		<h2>Guess the Number!</h2>
+		<p class="well lead">Guess the number generated from 1 to 1000</p>
+		<label>Your Guess:</label>
+		<input type="number" ng-model="guess" />
+		<button class="btn btn-primary btn-sm" ng-click="verifyGuess()">Verify</button>
+		<button class="btn btn-warning btn-sm" ng-click="initializeGame()">Retry</button>
+		<p>
+			<p ng-show="deviation<0" class="alert alert-warning">Your guess is higher</p>
+			<p ng-show="deviation>0" class="alert alert-warning">Your guess is lower</p>
+			<p ng-show="deviation===0" class="alert alert-success">Your guess matched!</p>
+		</p>
+		<p class="text-info">No. of Guess(es) : <span class="badge">{{noOfTries}}</span></p>
+	</div>
+
+</body>
+</html>

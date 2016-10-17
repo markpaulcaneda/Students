@@ -2,58 +2,22 @@ body{
 	background-image: url("pictures/hatsune miku 724x453.jpg");
 	background-size: 100%
 }
+#back{
+	font-size: 15px;
+	width: 10em;
+	height: 3em;
+	margin-left: 16em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
 #vlc0{
 	background-color: white;
 	margin-top: 5em;
 	margin-bottom: 2em;
 	width: 40em;
 	height: 5em;
-	border-top-left-radius: 2em;
-	border-bottom-right-radius: 2em;
-	border-top-right-radius: 2em;
-	border-bottom-left-radius: 2em;
-}
-#vlc{
-	margin-top: 5em;
-	margin-left: 5em;
-	width: 30em;
-	height: 10em;
-	background-image: url("pictures/sample4.png");
-	border-top-left-radius: 5em;
-	border-bottom-right-radius: 5em;
-}
-#vlc2{
-	
-	width: 10em;
-	height: 10em;
-	background-image: url("pictures/vlc2.PNG");
-	background-repeat: no-repeat;
-	float: left;
-	border-top-left-radius: 5em;
-
-}
-#vlc3{
-	width: 19em;
-	height: 10em;
-	float: right;
-	border-bottom-right-radius: 5em;
-	color: #7FFF00;
-
-}
-#link{
-	margin-left: 2em;
-	height: 3em;
-	width: 15em;
-	font-size: 11pt;
-	border-top-left-radius: 33px;
-	border-bottom-right-radius: 30px;
-	background-color: #7FFF00;
-}
-#back{
-	font-size: 15px;
-	width: 10em;
-	height: 3em;
-	margin-left: 16em;
 	border-top-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-top-right-radius: 2em;

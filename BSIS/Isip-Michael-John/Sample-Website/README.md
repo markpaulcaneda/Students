@@ -1,4 +1,16 @@
 #SCREENSHOTS
-
 ##Home
 ![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot1.png)
+##Information
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot2.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot3.png)
+##Education
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot4.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot5.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot6.png)
+##Message
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot7.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot8.png)
+##About
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot9.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Isip-Michael-John/Sample-Website/screenshots/screenshot10.png)

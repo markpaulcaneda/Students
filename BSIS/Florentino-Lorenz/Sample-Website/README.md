@@ -1,5 +1,5 @@
 # Sample Website
-![logo](https://github.com/lvcc-wad/Students/blob/master/BSIS/Florentino-Lorenz/Sample-Website/images/logos/logo.png)
+![logo](https://github.com/lvcc-wad/Students/blob/master/BSIS/Florentino-Lorenz/Sample-Website/images/logos/logo.png)![logo](https://github.com/lvcc-wad/Students/blob/master/BSIS/Florentino-Lorenz/Sample-Website/images/logos/riot.ico)
 
 ## Website
 (1) https://lol.forum.com

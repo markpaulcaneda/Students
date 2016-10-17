@@ -1,7 +1,7 @@
-! [alt text] [img1]1
-! [alt text] [img1]1
-! [alt text] [img1]1
-! [alt text] [img1]1
+![alt text][img1]1
+![alt text][img2]2
+![alt text][img3]3
+![alt text][img4]4
 
 
 

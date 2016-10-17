@@ -1,11 +1,22 @@
 # Sample Website
+![logo](https://github.com/lvcc-wad/Students/blob/master/BSIS/Florentino-Lorenz/Sample-Website/images/logos/logo.png)
 
 ## Website
 (1) https://lol.forum.com
+
+
 (2) https://garena.ph
+
+
 (3) https://steam.com
+
+
 (4) https://fb.com/lorenzhahaha
+
+
 (5) https://twitter.com/lorenzhahaha
+
+
 
 ## Description
 A simple website full of colors and designs. All about League of Legends. This website is for players only of League of Legends. Look for it's history, top plays, champions and their lores and tips to play. Good luck and have fun. Happy Clashing!

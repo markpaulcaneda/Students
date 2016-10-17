@@ -1,0 +1,429 @@
+
+body {
+    background-image: url("pictures/blurred.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+} 
+
+.container a {
+    text-decoration: none;
+   color: white;
+}
+.a {
+    transition-duration: 0.4s;
+}
+.a:hover{
+    background-color:#003333; 
+    padding: .5em;
+    border-radius: 7px;
+}
+
+.container {
+    position: absolute;
+    top: 10px;
+    left: 950px;
+}
+
+.container1 {
+    left: 440px;
+    top: 60px;
+    position: absolute;
+}
+
+.container1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background:#993366;
+    width:100%;
+    top:0%;
+    left: 0;
+    position:absolute;
+}
+
+.logo img {
+    float: left;
+    margin-left: 100px;
+
+}
+.search input {
+    left: 1027px;
+    top: 40px;
+    text-indent: 10px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.navleft {
+    float: left;
+    margin-left: 100px;
+    width: 200px;
+    height: 950px;
+    background-color: #FFCCCC;
+    border: 1px solid;
+    border-color: gray;
+}
+
+.navright {
+    margin-right: 85px;
+    float: right;
+    width: 360px;
+    height: 930px;
+    background-color: #FFCCCC;
+    border: 1px solid;
+    border-color: gray;
+}
+
+.navleft img {
+    position: absolute;
+    left: 120px;
+    top: 170px;
+    width: 160px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.navright img {
+    position: absolute;
+    right: 100px;
+    top: 110px;
+    width: 340px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.navcenter form {
+    position: absolute;
+    top: 110px;
+    left: 380px;
+}
+
+.navcenter textarea {
+    position: absolute;
+    text-transform: none;
+    border: 1px solid;
+    border-radius: 10px;
+    text-indent: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.navcenter input {
+    color: black;
+    background-color: #6699FF;
+    padding: .5em;
+    border-radius: 7px;
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    width: 200px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 126px;
+    top: 130px;
+}
+
+.text1 p {
+    color: blue;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    left: 138px;
+    top: 380px;
+}
+
+.text2 p {
+    color: blue;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    left: 160px;
+    top: 405px;
+}
+
+.ask img {
+    position: absolute;
+    right: 100px;
+    top: 750px;
+    width: 340px;
+    height: 250px;
+    border-radius: 5px; 
+}
+
+.sentence img {
+    position: absolute;
+    right: 100px;
+    top: 435px;
+    width: 340px;
+    height: 250px;
+    border-radius: 5px; 
+}
+
+.stream p {
+    color: white;
+    background-color: #990099;
+    padding-right: 180px;
+    padding-left: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 280px;
+    left: 320px;    
+}
+
+.bar img {
+    position: absolute;
+    left: 1240px;
+    top: 43px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.bonsai img {
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 330px;
+    left: 320px;
+}
+
+.bonsai h4 {
+    font-weight: normal;
+    position: absolute;
+    top: 323px;
+    left: 410px;
+}
+
+.bonsai h6 {
+    color: #A9A9A9;
+    font-weight: normal;
+    position: absolute;
+    top: 340px;
+    left: 411px;
+}
+
+.post img {
+    position: absolute;
+    top: 390px;
+    left: 412px;
+    border-radius: 0px;
+    width: 450px;
+    height: 580px;
+}
+
+.request h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    left: 120px;
+    font-weight: bold;
+}
+
+.add img {
+    box-shadow: 0px 0px 0px 5px;
+    color: gray;
+    position: absolute;
+    left: 115px;
+    top: 500px;
+    height: 70px;
+    width: 70px;
+}
+
+.add p {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+    top: 500px; 
+}
+
+.add h6 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    left: 190px;
+    top: 540px;
+}
+
+.add h5 {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    left: 280px;
+    top: 485px;
+}
+
+.add1 img {
+    box-shadow: 0px 0px 0px 5px;
+    color: gray;
+    position: absolute;
+    left: 115px;
+    top: 600px;
+    height: 70px;
+    width: 70px;
+}
+
+.add1 p {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+    top: 600px;
+}
+
+.add1 h5 {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    left: 280px;
+    top: 580px;
+}
+
+.add1 h6 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    left: 190px;
+    top: 640px;
+}
+
+.add2 img {
+    box-shadow: 0px 0px 0px 5px;
+    color: gray;
+    position: absolute;
+    left: 115px;
+    top: 700px;
+    height: 70px;
+    width: 70px;
+}
+
+.add2 p {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+    top: 700px;
+}
+
+.add2 h5 {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    left: 280px;
+    top: 680px;
+}
+
+.add2 h6 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    left: 190px;
+    top: 740px;
+}
+
+.add3 img {
+    box-shadow: 0px 0px 0px 5px;
+    color: gray;
+    position: absolute;
+    left: 115px;
+    top: 800px;
+    height: 70px;
+    width: 70px;
+}
+
+.add3 p {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+    top: 800px;
+}
+
+.add3 h5 {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    left: 280px;
+    top: 780px;
+}
+
+.add3 h6 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    left: 190px;
+    top: 840px;
+}
+
+.add4 img {
+    box-shadow: 0px 0px 0px 5px;
+    color: gray;
+    position: absolute;
+    left: 115px;
+    top: 900px;
+    height: 70px;
+    width: 70px;
+}
+
+.add4 p {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+    top: 900px;
+}
+
+.add4 h5 {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    left: 280px;
+    top: 880px;
+}
+
+.add4 h6 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    left: 190px;
+    top: 940px;
+}
+
+.add5 h6 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    left: 190px;
+    top: 1040px;
+}
+
+.more a {
+    position: absolute;
+    top: 1000px;
+    left: 590px;
+    font-weight: bold;
+    font-style: italic;
+}
+.c:hover{
+    background-color:#FFFFCC; 
+    padding: .5em;
+    border-radius: 7px;
+}

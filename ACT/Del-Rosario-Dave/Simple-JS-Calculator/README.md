@@ -35,8 +35,16 @@
  <input type="button" value="0" onClick="document.calculator.ans.value +='0'">
  <input type="button" value="." onClick="document.calculator.ans.value +='.'">	
  <input type="button" value="=" onClick="document.calculator.ans.value = eval(document.calculator.ans.value)">
+
+
+
+
 </center>
+
+</div>
 </table>
+
+
 
 
 

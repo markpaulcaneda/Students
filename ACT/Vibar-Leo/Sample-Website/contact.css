@@ -1,0 +1,159 @@
+.gr img{
+	position:absolute;
+	background-repeat:no-repeat;
+	width:1345px;
+	height: 690px;
+	left:0px;
+	
+
+}
+
+
+.m1{
+
+	background-color:#F8F8FF;
+	margin-left: 100px;
+   	margin-top: 200px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 30px;
+	padding: 20px;
+	font-size: 160%;
+	position:absolute;
+	width:700px;
+	height:50px;
+	text-align: center;
+	font-family: georgia;
+
+
+}
+.m2{
+
+	background-color:#F8F8FF;
+	margin-left: -300px;
+   	margin-top: 40px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 70%;
+	position:absolute;
+	width:700px;
+	height:30px;
+	text-align: left;
+	font-family: georgia;
+
+}
+.m3{
+
+	background-color:#F8F8FF;
+	margin-left: -10px;
+   	margin-top: 1px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 100%;
+	position:absolute;
+	width:700px;
+	height:150px;
+	text-align: left;
+	font-family: georgia;
+
+}
+.m4{
+
+	background-color:#F8F8FF;
+	margin-left:750px;
+   	margin-top: -213px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 100%;
+	position:absolute;
+	width:470px;
+	height:30px;
+	text-align: left;
+	font-family: georgia;
+
+}
+.m5{
+
+	background-color:#F8F8FF;
+	margin-left:-10px;
+   	margin-top:1px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 100%;
+	position:absolute;
+	width:470px;
+	height:30px;
+	text-align: left;
+	font-family: georgia;
+
+}
+.m5 img{
+	height: 40px;
+	width: 40px;
+	margin-top: -200px;
+	margin-left: 380px;
+	margin-bottom: 30px;
+}
+.m6 img{
+	height: 40px;
+	width: 40px;
+	margin-top: -200px;
+	margin-left: 430px;
+	margin-bottom:50px;
+}
+
+.m7{
+	background-color:#F8F8FF;
+	margin-left:-10px;
+   	margin-top:-40px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 100%;
+	position:absolute;
+	width:470px;
+	height:30px;
+	text-align: left;
+	font-family: georgia;
+
+
+}
+.m7 img{
+	height: 40px;
+	width: 40px;
+	margin-top: -190px;
+	margin-left: 430px;
+	margin-bottom:35px;
+}
+.m8{
+	background-color:#F8F8FF;
+	margin-left:-10px;
+   	margin-top:-20px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 100%;
+	position:absolute;
+	width:470px;
+	height:30px;
+	text-align: left;
+	font-family: georgia;
+
+
+}
+
+
+
+
+
+

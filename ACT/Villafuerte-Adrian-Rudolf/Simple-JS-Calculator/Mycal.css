@@ -1,0 +1,353 @@
+.BodyCalc{
+	padding: 130px;
+	box-sizing: border-box;
+	
+	font: bold 14px Arial, sans-serif;
+
+}
+html {
+
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+a{
+	font-size: 32px;
+	font-family: algerian;
+
+	}	
+#Screen {
+	cursor: crosshair;
+	position: absolute;
+	height: 65px;
+	width: 300px;cursor: crosshair;
+	background: black ;
+	border-radius: 5px;
+	text-align: center;
+	color: yellow;
+	font-size: 50px;
+
+
+}
+ .bar{
+ 	cursor: crosshair;
+	background: radial-gradient( #9dd2ea, black		);
+	position: absolute;
+	height: 35px;
+	width: 225px;
+	margin: 65px 0 0 0;
+	border-radius: 3px;
+	line-height: 36px;
+	border-radius: 5px;
+	
+}
+.buttonClear {
+	cursor: crosshair;
+	background: red;
+	position: absolute;
+	height: 35px;
+	width: 75px;
+	margin: 65px 0 0 225px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	border-radius: 5px;
+	
+}
+.buttonClear:hover {
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: white;
+
+}
+.button7 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 0px;
+	color: #black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button7:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+			
+    color: white;
+}
+.button8 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 75px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button8:hover {
+				
+    color: white;
+}
+.button9 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 150px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button9:hover {
+
+    color: white;
+}
+.buttonDivide {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 225px;
+	color: white;
+	border-radius: 3px;
+}
+.buttonDivide:hover {
+
+    color: black;
+}
+.button4 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 0;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button4:hover {
+
+    color: white;
+}
+.button5 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 75px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button5:hover {
+
+    color: white;
+}
+.button6 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 150px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button6:hover {
+
+    color: white;
+}
+.buttonMultiply {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 225px;
+	color: white;
+	font-family: calibri;
+	border-radius: 3px;
+}
+.buttonMultiply:hover {
+
+    color: black;
+}
+.button1 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 0;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button1:hover {
+
+    color: white;
+}
+.button2 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 75px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button2:hover {
+
+    color: white;
+}
+.button3 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 150px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button3:hover {
+
+    color: white;
+}
+.buttonMinus {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 225px;
+	color: white;
+	font-family: arial black;
+	border-radius: 3px;
+
+}
+.buttonMinus:hover {
+
+    color: black;
+}
+.buttonDecimal {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 0;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.buttonDecimal:hover {
+
+    color: white;
+}
+.button0 {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, silver, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 75px;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.button0:hover {
+				
+    color: white;
+}
+.buttonEquals {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to right,gold, #FBE7B2);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 150px;
+	color: black;
+	font-family: Calibri;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.buttonEquals:hover {
+
+    color: white;
+}
+.buttonPlus {
+	cursor: crosshair;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 225px;
+	color: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px #9da853;
+
+}
+.buttonPlus:hover {
+
+    color: black;
+}

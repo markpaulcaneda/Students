@@ -1,0 +1,88 @@
+.gr img{
+	position:absolute;
+	background-repeat:no-repeat;
+	width:1345px;
+	height: 1500px;
+	left:0px;
+	
+
+}
+
+
+.min{
+
+	background-color:#F8F8FF;
+	margin-left: 180px;
+   	margin-top: 200px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 30px;
+	padding: 20px;
+	font-size: 160%;
+	position:absolute;
+	width:590px;
+	height:250px;
+	text-align: center;
+	font-family: georgia;
+
+}
+.man{
+
+	background-color:#F8F8FF;
+	margin-left: 180px;
+   	margin-top:530px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 30px;
+	padding: 20px;
+	font-size: 160%;
+	position:absolute;
+	width:590px;
+	height:250px;
+	text-align: center;
+	font-family: georgia;
+
+}
+.mission{
+
+	background-color:#F8F8FF;
+	margin-left: 180px;
+   	margin-top:860px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 30px;
+	padding: 20px;
+	font-size: 160%;
+	position:absolute;
+	width:590px;
+	height:250px;
+	text-align: center;
+	font-family: georgia;
+
+}
+.success{
+
+	background-color:#F8F8FF;
+	margin-left: 180px;
+   	margin-top:1200px;
+   	margin-right: 200px;
+   	margin-bottom: 10px;
+	border-radius: 30px;
+	padding: 20px;
+	font-size: 160%;
+	position:absolute;
+	width:590px;
+	height:250px;
+	text-align: left;
+	font-family: georgia;
+
+}
+
+
+
+
+
+
+
+
+

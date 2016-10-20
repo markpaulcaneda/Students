@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> calculator </title>
+</head>
+	<link rel="stylesheet" type="text/css" href="jcal.css">
+<body>
+	<div id="calcbody">
+		<div id="result"></div>
+		<button  class="key left" id ="seven">7</button>
+		<button  class="key" id ="eight">8</button>
+		<button  class="key" id ="nine">9</button>
+		<button  class="operator" id ="mult">x</button>
+		<button  class="key left" id ="four">4</button>
+		<button  class="key" id ="five">5</button>
+		<button  class="key" id ="six">6</button>
+		<button  class="operator" id ="plus">+</button>
+		<button  class="key left" id ="three">3</button>
+		<button  class="key" id ="two">2</button>
+		<button  class="key" id ="one">1</button>
+		<button  class="operator" id ="subt">-</button>
+		<button  class="zero left" id ="zer">0</button>
+		<button  class="key" id ="dot">.</button>
+		<button  class="operator" id ="div">/</button>
+		<button  class="cancel left" id ="del">ce</button>
+		<button  class="equals" id ="eql">=</button>	
+	</div>
+
+</body>
+</html>
+<script>
+(function(){
+		 seven.onclick = function(){
+		 	result.innerHTML += "7";
+		 }
+		 eight.onclick = function(){
+		 	result.innerHTML += "8";
+		 }
+		 nine.onclick = function(){
+		 	result.innerHTML += "9";
+		 }
+		 mult.onclick = function(){
+		 	result.innerHTML += "*";
+		 }
+		 plus.onclick = function(){
+		 	result.innerHTML += "+";
+		 }
+		 six.onclick = function(){
+		 	result.innerHTML += "6";
+		 }
+		 five.onclick = function(){
+		 	result.innerHTML += "5";
+		 }
+		 four.onclick = function(){
+		 	result.innerHTML += "4";
+		 }
+		 div.onclick = function(){
+		 	result.innerHTML += "/";
+		 }
+		 subt.onclick = function(){
+		 	result.innerHTML += "-";
+		 }
+		 three.onclick = function(){
+		 	result.innerHTML += "3";
+		 }
+		 two.onclick = function(){
+		 	result.innerHTML += "2";
+		 }
+		 one.onclick = function(){
+		 	result.innerHTML += "1";
+		 }
+		 eql.onclick = function(){
+		 	equals = eval(result.innerHTML);
+		 	result.innerHTML = equals;
+		 }
+		 zer.onclick = function(){
+		 	result.innerHTML += "0";
+		 }
+		 dot.onclick = function(){
+		 	result.innerHTML += ".";
+		 }
+		 del.onclick = function(){
+		 	result.innerHTML = "";
+		 }
+
+}
+());
+</script>

@@ -7,7 +7,7 @@ var result
 var ads7 = document.getElementById("ads7");
 var ads8 = document.getElementById("ads8");
 var ads9 = document.getElementById("ads9");
-var adsClear = document.getElementById("adsClear");
+var adsCls = document.getElementById("adsCls");
 var ads4 = document.getElementById("ads4");
 var ads5 = document.getElementById("ads5");
 var ads6 = document.getElementById("ads6");
@@ -43,7 +43,7 @@ ads8.onclick = function(){
 ads9.onclick = function(){
 	result.innerHTML += "9";
 };
-adsClear.onclick = function(){
+adsCls.onclick = function(){
 	result.innerHTML = "";
 };
 ads4.onclick = function(){
@@ -128,7 +128,7 @@ adsPI.onclick = function PI(form){
 
 var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";

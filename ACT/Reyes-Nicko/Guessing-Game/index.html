@@ -1,0 +1,47 @@
+<!Doctype html>
+<html ng-app="app">
+<head>
+      <title>Guess the number!</title>
+      <script src="angular.min.js"></script>
+      <link href="css/bootstrap.min.css" rel="stylesheet"></link>
+      <style>
+           .container {width: 500px;}
+      </style>
+</head>
+<body ng-controller="appCtrl">
+      <div class="container">
+           <h2>Guess the Number!</h2>
+           <div class="well lead">Guess the computer generate random number between 1 and 1000.</div>
+               <label>Your Guess:</label><input ng-model="guess" type="number" />
+               <button class="btn btn-primary btn-sm" ng-click="verifyGuess()">Verify</button>
+               <button class="btn btn-warning btn-sm" ng-click="initializeGame()">Restart</button>
+               <button class="btn btn-info btn-sm" ng-click="displayAnswer()">Answer</button>
+                  <div ng-show="deviation<0" class="alert alert-warning">Too High.</div>
+                  <div ng-show="deviation>0" class="alert alert-warning">Too Low.</div>
+                  <div ng-show="deviation===0" class="alert alert-success">Yes! That "s it.</div>
+           <div class="text-info">No of Guesses: <span class="badge" ng-bind="noOfTires"></span></div>
+           <div class="text-info">Answer:<span ng-show="display">11</span></div>
+      </div>
+<script>
+      var app = angular.module('app', []);
+      app.controller('appCtrl', ['$scope', function($scope){
+          $scope.verifyGuess = function() {
+                 $scope.deviation = $scope.original - $scope.guess;
+                 $scope.noOfTires= $scope.noOfTires+ 1;
+        } 
+          $scope.initializeGame = function() {
+                 $scope.guess = null;
+                 $scope.original = Math.floor(Math.random() * 1000 + 1);
+                 $scope. noOfTires = 0;
+                 $scope.deviation = null;
+                 $scope.display = false;
+                     }
+          $scope.displayAnswer = function() {
+                 $scope.original = Math.floor(Math.random() * 1000 + 1);
+                 $scope.display = true;
+        }
+          $scope.initializeGame();
+    }]);
+</script>
+</body>
+</html>

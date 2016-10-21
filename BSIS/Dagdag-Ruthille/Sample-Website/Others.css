@@ -1,0 +1,73 @@
+html{
+	background-color: #380000;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+body{
+	background-image: url("chocolate-cream-1500.jpg");
+	background-attachment: fixed;
+	background-size: 25%;
+	width: 100px 300px ;
+	min-height: 50px;
+}
+
+#sitename{
+	background-image: url("choco .gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1000px;
+	width: 500px 1000px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 200px;
+
+}
+
+h1{
+	font-family: arial georgia serif;
+	font-size: 55px;
+}
+
+.nav{
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+	padding: 5px;
+}
+
+li a{
+
+	border: 1px solid #333;
+	padding: 6px 14px;
+	box-shadow: 0 8px 16px 0 (0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float:center;
+	font-size: 25px;
+	border-radius: 4px;
+}
+
+.nav li{
+	display: inline-block;
+	font-family: Georgia Times serif;
+	text-align: top;
+	border-spacing: 50px;
+}
+
+li a.active{
+	background-color: 996600;
+	color: black;
+}
+
+li a:not(.active){
+	background-color: 996600;
+	color:black;
+}
+
+li a:hover{
+	background-color: #400000;
+	color: white;
+}
